@@ -31,7 +31,7 @@
 | Backend    | Java Spring Boot, JPA/Hibernate, PostgreSQL |
 | Frontend   | React (Vite), Axios, SweetAlert2            |
 | Sécurité   | JWT / Spring Security                       |
-| Outils Dev | Maven, Node.js, Git                         |
+| Outils Dev | Maven, Git                                  |
 
 ---
 
@@ -143,19 +143,6 @@ server.port=8089
 
 ---
 
-## ✅ Notifications (Exemple SweetAlert2)
-
-```javascript
-import Swal from 'sweetalert2';
-
-Swal.fire({
-  icon: 'success',
-  title: 'Tâche terminée !',
-  text: 'L’état de la machine a été mis à jour avec succès.',
-});
-```
-
----
 
 ## 👨‍💻 Contribution
 
